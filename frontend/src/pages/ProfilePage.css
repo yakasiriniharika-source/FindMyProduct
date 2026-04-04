@@ -1,0 +1,16 @@
+.profile-page { max-width: 560px; }
+.profile-card { padding: 32px; }
+.profile-header { display: flex; gap: 20px; align-items: center; margin-bottom: 24px; }
+.profile-avatar {
+  width: 64px; height: 64px;
+  background: var(--accent);
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 26px; font-weight: 800; color: white; flex-shrink: 0;
+}
+.profile-name { font-size: 20px; font-weight: 800; color: var(--text); }
+.profile-email { font-size: 13px; color: var(--text3); margin: 4px 0 8px; }
+.profile-divider { height: 1px; background: var(--border); margin: 20px 0; }
+.profile-section-title { font-size: 16px; font-weight: 700; margin-bottom: 20px; }
+.profile-form { display: flex; flex-direction: column; gap: 16px; }
+.phone-warning { font-size: 11px; color: var(--amber); font-weight: 600; }

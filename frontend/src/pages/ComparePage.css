@@ -1,0 +1,27 @@
+.compare-page {}
+.compare-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
+.compare-actions { display: flex; align-items: center; gap: 10px; }
+
+.compare-table-wrap { overflow-x: auto; }
+.compare-table { width: 100%; border-collapse: collapse; min-width: 500px; }
+
+.compare-label-col { width: 140px; }
+.compare-product-col { min-width: 200px; }
+
+.cpc-header { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 16px; position: relative; }
+.cpc-img { width: 80px; height: 80px; background: #f0f4ff; border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; font-size: 36px; overflow: hidden; border: 1px solid var(--border); }
+.cpc-img img { width: 100%; height: 100%; object-fit: contain; padding: 8px; }
+.cpc-brand { font-size: 11px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
+.cpc-name { font-size: 13px; font-weight: 700; color: var(--text); text-align: center; line-height: 1.3; }
+.cpc-remove { position: absolute; top: 8px; right: 8px; background: var(--red-light); border: none; border-radius: 50%; width: 22px; height: 22px; font-size: 11px; color: var(--red); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.cpc-remove:hover { background: #fee2e2; }
+
+.compare-row td { padding: 12px 16px; border-bottom: 1px solid var(--border); font-size: 13px; vertical-align: middle; }
+.compare-row:hover td { background: #f8faff; }
+.compare-label { color: var(--text3); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; background: #fafbff; border-right: 1px solid var(--border); }
+.compare-val { color: var(--text2); text-align: center; }
+.compare-price { font-size: 16px; font-weight: 800; color: var(--text); display: block; }
+.compare-mrp { font-size: 11px; color: var(--text3); text-decoration: line-through; }
+.compare-action-row td { border-bottom: none; padding: 16px; }
+thead th { background: white; border-bottom: 2px solid var(--border2); position: sticky; top: 0; }
+.compare-label-col { background: #fafbff !important; }

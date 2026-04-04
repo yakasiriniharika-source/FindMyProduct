@@ -1,0 +1,188 @@
+/* ─── PAGE ─── */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(135deg, #eef2ff, #e0f2fe);
+}
+.auth-bg { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+.auth-glow {
+  position: absolute;
+  width: 600px; height: 600px;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(99,102,241,0.1) 0%, transparent 60%);
+}
+
+/* ─── CARD ─── */
+.auth-card {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 440px;
+  padding: 36px 40px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.1);
+  animation: scaleIn 0.25s ease;
+}
+
+/* ─── LOGO ─── */
+.auth-logo {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* ─── ROLE SELECTOR (Login page) ─── */
+.auth-role-selector {
+  display: flex;
+  background: #f0f4ff;
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+  padding: 4px;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+.auth-role-btn {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  color: var(--text3);
+  background: transparent;
+  transition: all 0.2s;
+}
+.auth-role-btn:hover { color: var(--text2); }
+.auth-role-btn.active {
+  background: white;
+  color: var(--accent);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ─── TYPE BADGE (Register pages) ─── */
+.auth-type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.customer-badge {
+  background: var(--accent-light);
+  color: var(--accent);
+  border: 1px solid #bfdbfe;
+}
+.owner-badge {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+/* ─── TITLE ─── */
+.auth-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+.auth-sub {
+  color: var(--text3);
+  font-size: 13px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+/* ─── FORM ─── */
+.auth-form { display: flex; flex-direction: column; gap: 14px; margin-bottom: 20px; }
+.form-group { display: flex; flex-direction: column; gap: 5px; }
+.form-group label { font-size: 12px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* ─── OWNER BUTTON ─── */
+.btn-owner {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  box-shadow: 0 4px 16px rgba(245,158,11,0.3);
+}
+.btn-owner:hover { opacity: 0.92; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(245,158,11,0.4); }
+
+/* ─── DIVIDER ─── */
+.auth-divider {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+  color: var(--text3);
+  font-size: 12px;
+}
+.auth-divider::before,
+.auth-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border2);
+}
+
+/* ─── SWITCH LINK ─── */
+.auth-switch {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text3);
+}
+.auth-switch a { color: var(--accent); font-weight: 600; }
+.auth-switch a:hover { text-decoration: underline; }
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.96); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* ─── STORE MODE ─── */
+.store-mode-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px;
+  background: #f8faff;
+  border: 1px solid var(--border2);
+  border-radius: var(--radius-sm);
+}
+.store-mode-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text2);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.store-mode-tabs {
+  display: flex;
+  gap: 6px;
+}
+.store-mode-btn {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--border2);
+  background: white;
+  color: var(--text2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.store-mode-btn:hover { border-color: var(--accent); color: var(--accent); }
+.store-mode-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+
+.new-store-fields { display: flex; flex-direction: column; gap: 10px; }
+.reg-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }

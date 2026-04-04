@@ -1,0 +1,302 @@
+[
+  {
+    "name": "SAMSUNG Galaxy F13 (Waterfall Blue 64 GB)",
+    "brand": "SAMSUNG",
+    "category": "mobile",
+    "price": 11999,
+    "mrp": 14999,
+    "specs": {
+      "model": "Galaxy F13",
+      "storage": "64 GB",
+      "color": "blue",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 5MP + 2MP | 8MP Front Camera 6000 mAh Lithium Ion Battery Exynos 850 Processor 1 Year Warranty Provided By the Manufacturer from Date of Purchase"
+      ]
+    }
+  },
+  {
+    "name": "REDMI 9i Sport (Coral Green 64 GB)",
+    "brand": "REDMI",
+    "category": "mobile",
+    "price": 7099,
+    "mrp": 9999,
+    "specs": {
+      "model": "Redmi 9i",
+      "storage": "64 GB",
+      "color": "Coral Green",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP Rear Camera | 5MP Front Camera 5000 mAh Li-Polymer Battery MediaTek Helio G25 Processor Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO C31 (Shadow Gray 64 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 7499,
+    "mrp": 11999,
+    "specs": {
+      "model": "C31",
+      "storage": "32GB",
+      "color": "Shadow Gray",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek Helio G35 Processor 1 Year Warranty for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "I Kall Z7 Ultra Series (Blue 32 GB)",
+    "brand": "I Kall",
+    "category": "mobile",
+    "price": 5999,
+    "mrp": 6299,
+    "specs": {
+      "model": "Z7",
+      "storage": "64 GB",
+      "color": "Blue",
+      "details": [
+        "4 GB RAM | 32 GB ROM 15.9 cm (6.26 inch) Display 13MP Rear Camera | 8MP Front Camera 4000 mAh Battery 1 year manufacturing warranty for mobile and 6 months for box accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO C31 (Royal Blue 64 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 7499,
+    "mrp": 11999,
+    "specs": {
+      "model": "C31",
+      "storage": "64 GB",
+      "color": "Royal Blue",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP + 2MP + 2MP | 5MP Front Camera 5000 mAh Lithium-ion Polymer Battery MediaTek G35 Processor 1 Year Warranty for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "REDMI 9i Sport (Metallic Blue 64 GB)",
+    "brand": "REDMI",
+    "category": "mobile",
+    "price": 7099,
+    "mrp": 9999,
+    "specs": {
+      "model": "9i",
+      "storage": "64 GB",
+      "color": "Metallic Blue",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP Rear Camera | 5MP Front Camera 5000 mAh Li-Polymer Battery MediaTek Helio G25 Processor Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "REDMI 10 (Caribbean Green 64 GB)",
+    "brand": "REDMI",
+    "category": "mobile",
+    "price": 9499,
+    "mrp": 14999,
+    "specs": {
+      "model": "Redmi 10",
+      "storage": "64 GB",
+      "color": "caribbean Blue",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor 1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO M4 Pro (Power Black 128 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 11999,
+    "mrp": 19999,
+    "specs": {
+      "model": "M4 pro",
+      "storage": "128GB",
+      "color": "power Black",
+      "details": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.33 cm (6.43 inch) Full HD+ AMOLED Display 64MP + 8MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Mediatek Helio G96 Processor One Year for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO M4 Pro (Power Black 64 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 10999,
+    "mrp": 17999,
+    "specs": {
+      "model": "M4 pro",
+      "storage": "64 GB",
+      "color": "power Black",
+      "details": [
+        "6 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.33 cm (6.43 inch) Full HD+ AMOLED Display 64MP + 8MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Mediatek Helio G96 Processor One Year for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO M4 Pro (Cool Blue 64 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 10999,
+    "mrp": 17999,
+    "specs": {
+      "model": "M4 pro",
+      "storage": "64 GB",
+      "color": "cool Blue",
+      "details": [
+        "6 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.33 cm (6.43 inch) Full HD+ AMOLED Display 64MP + 8MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Mediatek Helio G96 Processor One Year for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "MOTOROLA G60 (Moonless 128 GB)",
+    "brand": "MOTOROLA",
+    "category": "mobile",
+    "price": 14999,
+    "mrp": 21999,
+    "specs": {
+      "model": "G60",
+      "storage": "128GB",
+      "color": "moonless",
+      "details": [
+        "6 GB RAM | 128 GB ROM 17.22 cm (6.78 inch) Full HD+ Display 108MP + 8MP + 2MP | 32MP Front Camera 6000 mAh Battery Qualcomm Snapdragon 732G Processor 120Hz Refresh Rate Stock Android Experience 1 Year on Handset and 6 Months on Accessories"
+      ]
+    }
+  },
+  {
+    "name": "realme C30 (Bamboo Green 32 GB)",
+    "brand": "realme",
+    "category": "mobile",
+    "price": 5749,
+    "mrp": 8499,
+    "specs": {
+      "model": "C30",
+      "storage": "32GB",
+      "color": "Bamboo Green",
+      "details": [
+        "2 GB RAM | 32 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Lithium Ion Battery Unisoc T612 Processor 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      ]
+    }
+  },
+  {
+    "name": "REDMI 10 (Midnight Black 64 GB)",
+    "brand": "REDMI",
+    "category": "mobile",
+    "price": 9499,
+    "mrp": 14999,
+    "specs": {
+      "model": "10",
+      "storage": "64 GB",
+      "color": "Midnight Black",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 17.02 cm (6.7 inch) HD+ Display 50MP + 2MP | 5MP Front Camera 6000 mAh Lithium Polymer Battery Qualcomm Snapdragon 680 Processor 1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      ]
+    }
+  },
+  {
+    "name": "POCO M4 Pro (Yellow 128 GB)",
+    "brand": "POCO",
+    "category": "mobile",
+    "price": 11999,
+    "mrp": 19999,
+    "specs": {
+      "model": "M4 pro",
+      "storage": "128GB",
+      "color": "Yellow",
+      "details": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB 16.33 cm (6.43 inch) Full HD+ AMOLED Display 64MP + 8MP + 2MP | 16MP Front Camera 5000 mAh Lithium-ion Polymer Battery Mediatek Helio G96 Processor One Year for Handset 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "MOTOROLA e40 (Carbon Gray 64 GB)",
+    "brand": "MOTOROLA",
+    "category": "mobile",
+    "price": 7999,
+    "mrp": 10999,
+    "specs": {
+      "model": "e40",
+      "storage": "64 GB",
+      "color": "carbon Gray",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) HD+ Display 48MP + 2MP + 2MP | 8MP Front Camera 5000 mAh Battery UNISOC T700 Processor 1 Year on Handset and 6 Months on Accessories"
+      ]
+    }
+  },
+  {
+    "name": "REDMI 9i Sport (Carbon Black 64 GB)",
+    "brand": "REDMI",
+    "category": "mobile",
+    "price": 7099,
+    "mrp": 9999,
+    "specs": {
+      "model": "9i",
+      "storage": "64 GB",
+      "color": "Carbon Black",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 512 GB 16.59 cm (6.53 inch) HD+ Display 13MP Rear Camera | 5MP Front Camera 5000 mAh Li-Polymer Battery MediaTek Helio G25 Processor Brand Warranty of 1 Year Available for Mobile and 6 Months for Accessories"
+      ]
+    }
+  },
+  {
+    "name": "SAMSUNG Galaxy F13 (Sunrise Copper 64 GB)",
+    "brand": "SAMSUNG",
+    "category": "mobile",
+    "price": 11999,
+    "mrp": 14999,
+    "specs": {
+      "model": "F13",
+      "storage": "64 GB",
+      "color": "Sunrise copper",
+      "details": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB 16.76 cm (6.6 inch) Full HD+ Display 50MP + 5MP + 2MP | 8MP Front Camera 6000 mAh Lithium Ion Battery Exynos 850 Processor 1 Year Warranty Provided By the Manufacturer from Date of Purchase"
+      ]
+    }
+  },
+  {
+    "name": "realme C30 (Lake Blue 32 GB)",
+    "brand": "realme",
+    "category": "mobile",
+    "price": 5749,
+    "mrp": 8499,
+    "specs": {
+      "model": "C30",
+      "storage": "32GB",
+      "color": "Lake blue",
+      "details": [
+        "2 GB RAM | 32 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Lithium Ion Battery Unisoc T612 Processor 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      ]
+    }
+  },
+  {
+    "name": "MOTOROLA g52 (Charcoal Grey 128 GB)",
+    "brand": "MOTOROLA",
+    "category": "mobile",
+    "price": 12999,
+    "mrp": 19999,
+    "specs": {
+      "model": "g52",
+      "storage": "128GB",
+      "color": "charcoal Grey",
+      "details": [
+        "6 GB RAM | 128 GB ROM 16.76 cm (6.6 inch) Full HD+ Display 50MP + 8MP + 2MP | 16MP Front Camera 5000 mAh Lithium Battery Qualcomm Snapdragon 680 Processor 1 Year on Handset and 6 Months on Accessories"
+      ]
+    }
+  },
+  {
+    "name": "realme C30 (Denim Black 32 GB)",
+    "brand": "realme",
+    "category": "mobile",
+    "price": 5749,
+    "mrp": 8499,
+    "specs": {
+      "model": "C30",
+      "storage": "32GB",
+      "color": "Denim black",
+      "details": [
+        "2 GB RAM | 32 GB ROM | Expandable Upto 1 TB 16.51 cm (6.5 inch) HD+ Display 8MP Rear Camera | 5MP Front Camera 5000 mAh Lithium Ion Battery Unisoc T612 Processor 1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In-Box Accessories"
+      ]
+    }
+  }
+]
