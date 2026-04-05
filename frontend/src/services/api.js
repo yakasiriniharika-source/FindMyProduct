@@ -3,7 +3,7 @@
 // In production: same origin
 const BASE = process.env.NODE_ENV === "production"
   ? "/api"
-  : "http://localhost:5000/api";
+  : "https://findmyproduct-backend.onrender.com/api";
 
 const getHeaders = () => {
   const token = localStorage.getItem("fmp_token");
