@@ -1,9 +1,7 @@
 // Auto-detect backend URL
 // In development: http://localhost:5000
-// In production: same origin
-const BASE = process.env.NODE_ENV === "production"
-  ? "/api"
-  : "https://findmyproduct-backend.onrender.com/api";
+// In production: Render backend
+const BASE = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 
 const getHeaders = () => {
   const token = localStorage.getItem("fmp_token");

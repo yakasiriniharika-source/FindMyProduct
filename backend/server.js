@@ -14,10 +14,15 @@ const notificationRoutes = require("./routes/notificationRoutes");
 
 const app = express();
 
+// ✅ Single CORS config — must be before all routes
 app.use(cors({
-  origin: ["http://localhost:3000", "http://localhost:5000"],
+  origin: [
+    "http://localhost:3000",
+    "https://findmyproduct-frontend.vercel.app", // 🔴 replace with your actual Vercel URL
+  ],
   credentials: true,
 }));
+
 app.use(express.json());
 
 mongoose
@@ -34,14 +39,10 @@ app.use("/api/notifications", notificationRoutes);
 app.use("/api/stores", storeRoutes);
 app.use("/api/owner", ownerRoutes);
 
-// Serve React build in production
-// app.use(express.static(path.join(__dirname, "../frontend/build")));
-// app.get("*", (req, res) => {
-//   res.sendFile(path.join(__dirname, "../frontend/build/index.html"));
-// });
 app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, "0.0.0.0", () => {
   console.log(`🚀 Server running on port ${PORT}`);
