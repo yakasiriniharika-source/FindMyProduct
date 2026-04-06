@@ -70,7 +70,7 @@ function Dashboard() {
       })
       .catch(() => toast("Failed to load dashboard data", "error"))
       .finally(() => setLoading(false));
-  }, [user]);
+  }, [user, navigate, toast]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const unreadCount = notifications.filter((n) => !n.read).length;
   const activeBookings = bookings.filter((b) => b.status === "confirmed");

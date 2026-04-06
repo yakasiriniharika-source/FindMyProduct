@@ -112,7 +112,7 @@ function Routing({ storeLat, storeLng, userLocation, setRouteInfo }) {
 
       routingRef.current = null;
     };
-  }, [map, storeLat, storeLng, userLocation]);
+  }, [map, storeLat, storeLng, userLocation, setRouteInfo]);
 
   return null;
 }
@@ -183,7 +183,7 @@ function ProductDetails() {
         }
       })
       .catch(() => setLoading(false));
-  }, [id]);
+  }, [id, storeId, addItem, user]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // Fetch notify subscription status when user is logged in
   useEffect(() => {

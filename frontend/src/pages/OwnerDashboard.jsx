@@ -97,7 +97,7 @@ function OwnerDashboard() {
       })
       .catch(() => toast("Failed to load data", "error"))
       .finally(() => setLoading(false));
-  }, [user]);
+  }, [user, navigate, toast]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ── Handlers ──
 

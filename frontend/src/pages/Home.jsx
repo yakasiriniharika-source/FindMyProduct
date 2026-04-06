@@ -30,7 +30,6 @@ function Home() {
   const [nearbyProducts, setNearbyProducts] = useState([]);
   const [loadingNearby, setLoadingNearby] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [heroLocation, setHeroLocation] = useState(null);
   const [heroPincode, setHeroPincode] = useState("");
   const [heroError, setHeroError] = useState("");
   const navigate = useNavigate();
