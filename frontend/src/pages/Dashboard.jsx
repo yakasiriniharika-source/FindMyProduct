@@ -21,14 +21,6 @@ const STATUS_ICONS = {
   cancelled: "🚫",
   completed: "🎉",
 };
-const STATUS_LABELS = {
-  pending:   "⏳ Waiting for store approval",
-  confirmed: "📋 Booking received",
-  accepted:  "✅ Accepted by store",
-  declined:  "❌ Declined by store",
-  cancelled: "🚫 Cancelled",
-  completed: "🎉 Completed",
-};
 
 const CATEGORY_ICONS = {
   mobile: "📱", Mobile: "📱",
