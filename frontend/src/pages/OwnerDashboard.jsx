@@ -97,12 +97,12 @@ function OwnerDashboard() {
       })
       .catch(() => toast("Failed to load data", "error"))
       .finally(() => setLoading(false));
-  }, [navigate, toast]);
+  }, [user]);
 
   // ── Handlers ──
 
   const handleRespond = async (bookingId, status, note = "") => {
-
+    
     try {
       setRespondingId(bookingId);
       const updated = await respondBooking(bookingId, status, note);

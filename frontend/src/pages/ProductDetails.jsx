@@ -112,7 +112,7 @@ function Routing({ storeLat, storeLng, userLocation, setRouteInfo }) {
 
       routingRef.current = null;
     };
-  }, [setRouteInfo]);
+  }, [map, storeLat, storeLng, userLocation]);
 
   return null;
 }
@@ -183,7 +183,7 @@ function ProductDetails() {
         }
       })
       .catch(() => setLoading(false));
-  }, [addItem, storeId, user]);
+  }, [id]);
 
   // Fetch notify subscription status when user is logged in
   useEffect(() => {
