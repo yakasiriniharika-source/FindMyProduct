@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 const KEY = "fmp_recently_viewed";
 const MAX = 8;
