@@ -112,7 +112,7 @@ function Routing({ storeLat, storeLng, userLocation, setRouteInfo }) {
 
       routingRef.current = null;
     };
-  }, [map, storeLat, storeLng, userLocation]);
+  }, [setRouteInfo]);
 
   return null;
 }
@@ -145,7 +145,7 @@ function ProductDetails() {
       (pos) => setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
       () => {}
     );
-  }, []);
+  }, [userLocation]);
 
   const { addItem } = useRecentlyViewed();
   const [product,          setProduct]          = useState(null);
@@ -183,7 +183,7 @@ function ProductDetails() {
         }
       })
       .catch(() => setLoading(false));
-  }, [id]);
+  }, [addItem, storeId, user]);
 
   // Fetch notify subscription status when user is logged in
   useEffect(() => {

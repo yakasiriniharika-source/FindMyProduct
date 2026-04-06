@@ -17,10 +17,6 @@ const STATUS_COLORS = {
   cancelled: "badge-red",
   completed: "badge-cyan",
 };
-const STATUS_ICONS = {
-  pending: "⏳", confirmed: "📋", accepted: "✅",
-  declined: "❌", cancelled: "🚫", completed: "🎉",
-};
 const CATEGORY_ICONS = {
   Mobile: "📱", Laptop: "💻", TV: "📺",
   Refrigerator: "🧊", "smart watch": "⌚", "Washing Machine": "🫧",
@@ -62,7 +58,6 @@ function OwnerDashboard() {
   });
   const [editProduct, setEditProduct]     = useState(null);
   const [editForm, setEditForm]           = useState({});
-  const [filterStatus, setFilterStatus]   = useState("all");
   const [reviews,      setReviews]        = useState([]);
   const [reviewsLoading, setReviewsLoading] = useState(false);
 
@@ -102,11 +97,12 @@ function OwnerDashboard() {
       })
       .catch(() => toast("Failed to load data", "error"))
       .finally(() => setLoading(false));
-  }, [user]);
+  }, [navigate, toast]);
 
   // ── Handlers ──
 
   const handleRespond = async (bookingId, status, note = "") => {
+
     try {
       setRespondingId(bookingId);
       const updated = await respondBooking(bookingId, status, note);
