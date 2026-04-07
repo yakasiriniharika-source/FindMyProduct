@@ -24,34 +24,36 @@ router.get("/:id", async (req, res) => {
     const store = await db().collection("stores").findOne({ _id: oid });
     if (!store) return res.status(404).json({ message: "Store not found" });
 
-    // Clean ObjectId query
-    const stockEntries = await db().collection("stock").find({
-      storeId: oid,
-    }).toArray();
+    // ✅ FIX: Products stored directly in store.products array as IDs
+    // No separate stock collection — fetch products directly
+    const productIds = (store.products || [])
+      .map(id => toObjId(id.toString()))
+      .filter(Boolean);
 
-    if (stockEntries.length === 0) {
+    if (productIds.length === 0) {
       return res.json({ store, products: [] });
     }
 
-    // Get product IDs from stock
-    const productIds = stockEntries
-      .map(s => s.productId)
-      .filter(Boolean);
-
-    // Fetch products
+    // Fetch products from products collection
     const products = await db().collection("products").find({
       _id: { $in: productIds },
     }).toArray();
 
-    // Attach stock info to each product
+    // Try stock collection too (optional — if stock collection exists use it)
+    const stockEntries = await db().collection("stock").find({
+      storeId: oid,
+    }).toArray();
+
+    // Attach stock info if available, otherwise use product's own quantity
     const productsWithStock = products.map(p => {
       const stock = stockEntries.find(
-        s => s.productId.toString() === p._id.toString()
+        s => s.productId?.toString() === p._id.toString()
       );
+      const quantity = stock?.quantity ?? p.quantity ?? 0;
       return {
         ...p,
-        quantity:     stock?.quantity || 0,
-        inStock:      (stock?.quantity || 0) > 0,
+        quantity,
+        inStock:      quantity > 0,
         storeName:    store.name,
         storeAddress: store.address,
         storeId:      store._id,
