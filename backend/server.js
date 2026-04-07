@@ -13,16 +13,13 @@ const ownerRoutes = require("./routes/ownerRoutes");
 const notificationRoutes = require("./routes/notificationRoutes");
 
 const app = express();
-
-// ✅ Single CORS config — must be before all routes
 app.use(cors({
   origin: [
     "http://localhost:3000",
-    "https://findmyproduct-frontend.vercel.app", // 🔴 replace with your actual Vercel URL
+    "https://findmyproduct-tau.vercel.app", // ✅ correct URL add chesamu
   ],
   credentials: true,
 }));
-
 app.use(express.json());
 
 mongoose
